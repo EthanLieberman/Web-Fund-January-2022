@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.wrapper{
+    width: 750px;
+    margin: auto;
+}
+
+.header{
+background-color: rgb(184, 184, 184);
+display: flex;
+justify-content: space-around;
+align-items:baseline;
+padding: 10px;
+}
+
+.searchbar{
+    width: 250px;
+    background-color: white;
+    border: 1px solid black;
+    color: gray;
+}
+
+.login{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
+
+.main{
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.leftbox{
+    flex: 4;
+    border: 2px solid black;
+    display: flex;
+}
+
+.rightbox{
+    flex: 2;
+    border: 2px solid black;
+    height: 120px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rightbox h3{
+padding-bottom: 20px;
+}
+
+.rightbox div{
+    border: 3px solid black;
+    margin: 0px 40px;
+    background-color: rgb(178, 247, 187);
+    box-shadow: 2px 2px 2px black;
+}
+
+
+
+.rightbox2{
+    flex: 2;
+}
+
+
+
+.lftsub1{
+    flex: 1;
+    justify-content: center;
+    padding: 20px 20px 10px 20px;
+    text-align: center;
+}
+
+.lftsub1 h2, h5{
+    margin-bottom: 10px;
+}
+.lftsub1 p{
+    margin-bottom: 20px;
+}
+
+#Nlikes{
+background-color: rgb(247, 247, 178);
+border: 2px solid black;
+box-shadow: 2px 2px 2px black;
+padding: 5px;
+}
+
+
+
+.lftsub2{
+    flex: 3;
+    align-self: center;
+}

@@ -1,0 +1,212 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+/* header */
+
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+#navlink{
+justify-content: space-around;
+display: inline-flex;
+align-items: center;
+margin-right: 230px;
+}
+
+#signout{
+text-align: center;
+}
+
+#signout span{
+    background-color: blue;
+    padding: 2px 5px;
+}
+
+
+
+ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+li{
+    margin: 20px;
+}
+
+/* header */
+
+
+/* main wrapper */
+
+.mainwrapper{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.subwrapper1{
+margin-right: 25px;
+}
+
+
+
+
+
+/* main wrapper */
+
+/* profile */
+.profile{
+    display: flex;
+    width: 400px;
+    height: 350px;
+    flex-wrap: wrap;
+}
+
+#blue{
+    background-color: lightskyblue;
+    height: 25%;
+    width: 100%;
+}
+
+#white{
+    border: solid gray;
+    border-width: 0px 2px 2px 2px;
+    background-color: whitesmoke;
+    height: 75%;
+    width: 100%;
+}
+
+#logo{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 25px;
+    position: relative;
+    top: 25px;
+}
+
+#location{
+display: flex;
+}
+
+h1{
+margin-left: 25px;
+margin-top: 50px;
+margin-bottom: 15px;
+}
+
+#pin{
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#skills{
+    margin-left: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#last{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-left: 35px;
+}
+#gear{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* profile */
+
+
+
+
+
+
+/* Education */
+
+.education{
+    width: 400px;
+    height: 32px;
+    color: white;
+    background-color: gray;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.edubox{
+    border: solid gray;
+    border-width: 0px 2px 0px 2px;
+}
+
+
+
+/* Connection Requests */
+.connectionrequests{
+    background-color: gray;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#conreqnum{
+background-color: white;
+border-radius: 50%;
+padding: 0px 6px;
+}
+#conreqname{
+color: whitesmoke;
+}
+
+
+.reqcont{
+    border: 2px solid gray;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+#reqbox{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#reqboxleft{
+    display: flex;
+}
+
+#logo2{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.check{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.X{
+    width: 25px;
+    border-radius: 50%;
+}
+
+#viewmore{
+position: relative;
+top: -26px;
+padding: 2px 0px 5px 15px;
+border: 2px solid gray;
+}

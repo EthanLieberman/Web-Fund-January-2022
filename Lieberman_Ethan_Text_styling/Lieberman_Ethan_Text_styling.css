@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    background-color: black;
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+}
+
+h2{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+h3{
+    background-color: skyblue;
+    color: darkblue;
+    text-align: right;
+    text-decoration-line: underline;
+    padding: 15px;
+    margin: 10px;
+}
+
+#my{
+color: white;
+}
+
+#cloud{
+color: cyan;
+}
