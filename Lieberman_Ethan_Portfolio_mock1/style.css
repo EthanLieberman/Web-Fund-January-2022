@@ -78,6 +78,35 @@ body{
     width: 30px;
 }
 
+.move{
+    position: relative;
+    animation: sling .5s forwards;
+}
+
+.unmove{
+    position: relative;
+    animation: unsling .5s forwards;
+}
+
+@keyframes sling{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 20px;
+    }
+}
+
+@keyframes unsling{
+    from{
+        left: 20px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+
 .bigspace{
     flex: 8;
     box-shadow: 0px 0px 20px -5px black;
@@ -92,14 +121,47 @@ body{
     gap: 100px;
     font-size: 12pt;
     text-align: center;
+    text-overflow: ellipsis;
+}
+
+.bigcolumns p{
+    height: 400px;
+    overflow-y:auto;
 }
 
 .bigcolumns span{
     font-size: 20pt;
 }
 
+.scale{
+    animation: scale 1s forwards;
+}
 
+.unscale{
+        animation: unscale 1s forwards;
+}
 
+@keyframes scale{
+    from{
+        color: white;
+        transform: scale(1,1);
+    }
+    to{
+        color: cyan;
+        transform: scale(1.05,1.05);
+    }
+}
+
+@keyframes unscale{
+    from{
+        color: cyan;
+        transform: scale(1.05,1.05);
+    }
+    to{
+        color: white;
+        transform: scale(1,1);
+    }
+}
 
 
 

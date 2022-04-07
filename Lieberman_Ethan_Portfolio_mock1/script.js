@@ -15,13 +15,38 @@ function resumeOff(el) {
 }
 
 
-function over(el) {
-    el.style.position = 'relative'
-    el.style.left = '20px'
+// function over(el) {
+//     el.style.position = 'relative'
+//     el.style.left = '20px'
     
+// }
+
+// function out(el) {
+//     el.style.positon = 'relative'
+//     el.style.left = '0px'
+// }
+
+
+
+function over(el) {
+    el.classList.add('move')
+    el.classList.remove('unmove')
 }
 
 function out(el) {
-    el.style.positon = 'relative'
-    el.style.left = '0px'
+    el.classList.add('unmove')
+    el.classList.remove('move')
+}
+
+
+
+function scale(el){
+    el.classList.add('scale')
+    el.classList.remove('unscale')
+}
+
+
+function unscale(el){
+    el.classList.add('unscale')
+    el.classList.remove('scale')
 }
